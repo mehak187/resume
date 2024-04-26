@@ -1,0 +1,63 @@
+/* Mehak */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-yellow {
+    background: #FFD730;
+}
+.navbar-collapse {
+    flex-grow: 0;
+}
+.top-sec {
+    background: url("../img/hero-bg.png"), url("../img/image\ 1.png");
+    background-size: cover;
+}
+.hero {
+    height: calc(100dvh - 105px);
+}
+.social {
+    width: 34px;
+}
+.footer-menu {
+    border-bottom: 1px dotted #f5f5f5;
+}
+.newsletter {
+    background: url("../img/newsletter-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.accordion-button {
+    background: transparent !important;
+    
+}
+.accordion-item {
+    border: dashed 2px #cdcdcd ;
+}
+.accordion-button:focus {
+    box-shadow: none !important;
+
+}
+.accordion-button:not(.collapsed) {
+    box-shadow: none !important;
+        border-bottom: dashed 2px #cdcdcd ;
+}
+
+.object-cover {
+    object-fit: cover;
+}
+@media screen and (max-width:768px) {
+    .newsletter {
+        background:none
+    }
+    .fnt{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:420px) {
+    .fnt{
+        font-size: 12px;
+    }
+}
