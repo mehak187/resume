@@ -3,3 +3,18 @@
     padding: 0;
     box-sizing: border-box;
   }
+  .border-dashed-bottom{
+    border-bottom: 1px dashed black;
+  }
+  .height-container{
+    height: 400px;
+  }
+  .top-n20{
+    top:-20px;
+  }
+  .btn-bg{
+    background-color: #52B691;
+  }
+  .text-blue{
+color: Blue;
+  }
