@@ -4,7 +4,7 @@
     box-sizing: border-box;
   }
  .text-small{
-    font-size: 7px;
+    font-size: 12px;
  }
  .checkbox-wrapper-44 input[type="checkbox"] {
    display: none;
@@ -41,7 +41,7 @@
  .checkbox-wrapper-44 .toggleButton input + div svg {
    fill: none;
    stroke-width: 1.5;
-   stroke: black;
+   stroke: rgb(0, 0, 0);
    stroke-linecap: round;
    stroke-linejoin: round;
    width: 44px;
