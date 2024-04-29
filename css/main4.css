@@ -4,7 +4,7 @@
     box-sizing: border-box;
   }
  .text-small{
-    font-size: 10px;
+    font-size: 5px;
  }
  .checkbox-wrapper-44 input[type="checkbox"] {
    display: none;
@@ -25,19 +25,23 @@
    transition: transform 0.14s ease;
  }
  .checkbox-wrapper-44 .toggleButton:active {
-   transform: rotateX(30deg);
  }
  .checkbox-wrapper-44 .toggleButton input + div {
-   border: 3px solid rgba(0, 0, 0, 0.2);
-   border-radius: 50%;
-   position: relative;
-   width: 44px;
-   height: 44px;
- }
+  border: 3px solid rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  position: relative;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin: 0 auto;
+}
+
  .checkbox-wrapper-44 .toggleButton input + div svg {
    fill: none;
-   stroke-width: 3.6;
-   stroke: #000;
+   stroke-width: 1.5;
+   stroke: black;
    stroke-linecap: round;
    stroke-linejoin: round;
    width: 44px;
@@ -56,13 +60,13 @@
  .checkbox-wrapper-44 .toggleButton input + div:before,
  .checkbox-wrapper-44 .toggleButton input + div:after {
    content: "";
-   width: 3px;
-   height: 16px;
-   background: #000;
+   width: 4px;
+   height: 20px;
+   background: black;
    position: absolute;
    left: 50%;
    top: 50%;
-   border-radius: 5px;
+   border-radius: 1px;
  }
  .checkbox-wrapper-44 .toggleButton input + div:before {
    opacity: 0;
