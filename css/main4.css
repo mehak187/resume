@@ -27,7 +27,7 @@
  .checkbox-wrapper-44 .toggleButton:active {
  }
  .checkbox-wrapper-44 .toggleButton input + div {
-  border: 3px solid rgba(0, 0, 0, 0.2);
+  border: none;
   border-radius: 50%;
   position: relative;
   width: 44px;
@@ -48,11 +48,11 @@
    height: 44px;
    display: block;
    position: absolute;
-   left: -3px;
-   top: -3px;
-   right: -3px;
-   bottom: -3px;
+   left: 50%; /* Center horizontally */
+   top: 50%; /* Center vertically */
+   transform: translate(-50%, -50%); /* Adjust to center the content */
    z-index: 1;
+   transition: all 0.4s ease 0s;
    stroke-dashoffset: 124.6;
    stroke-dasharray: 0 162.6 133 29.6;
    transition: all 0.4s ease 0s;
