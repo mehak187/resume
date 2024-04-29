@@ -1,5 +1,17 @@
 .navbar-brand img {
     max-width: 100px
 }
+.hero {
+    min-height: calc(100dvh - 70px);
+}
+.hero-icon {
+    width: 70px;
+}
+.grey-gradient {
+    background: linear-gradient(to right, rgba(81, 182, 144, 0.2) ,rgba(179, 190, 228, 0.2));
+}
+.upload-resume-icon {
+    width: 70px;
+}
 @media screen and (max-width:992px) {
 }
